@@ -12,12 +12,14 @@ void loop(){
   if (value == HIGH)
   {
     digitalWrite(ledPin, HIGH);
+    serial.println("LED ON");
     delay(1000) ;
   }
 
   else
   {
     digitalWrite(ledPin, LOW);
+    serial.println("LED OFF");
 
 delay(1000) ;
   }
