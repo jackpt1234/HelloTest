@@ -82,4 +82,15 @@ void loop()
     microgear.connect(APPID);
    }
     delay(1500);
+    
+    if (่jack==A)
+    {
+        serial.println("Jack A")
+    }
+    else if(jack==B)
+    {
+        serial.println("Jack A")
+    }
+    else{
+    serial.println("Jack x")}
 }
